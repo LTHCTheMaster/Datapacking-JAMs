@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"unlock": {
+			"trigger": "player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "villager",
+					"nbt": "{Tags:[\"lthc.overgrown_garden.master\"]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "lthc.overgrown_garden:kill/kill_master"
+	}
+}

@@ -1,0 +1,2 @@
+Resource pack: https://vanillatweaks.net/share#dCtKey
+Shader: Sildurs Vibrant Shaders v1.29 Lite

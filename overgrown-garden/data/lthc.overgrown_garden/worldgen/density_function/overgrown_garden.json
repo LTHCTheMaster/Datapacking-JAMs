@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:flat_cache",
+	"argument": {
+		"type": "minecraft:shifted_noise",
+		"noise": "lthc.overgrown_garden:overgrown_garden",
+		"xz_scale": 0.35,
+		"y_scale": 0.15,
+		"shift_x": "minecraft:overworld/caves/noodle",
+		"shift_y": 0.02,
+		"shift_z": "minecraft:shift_x"
+	}
+}

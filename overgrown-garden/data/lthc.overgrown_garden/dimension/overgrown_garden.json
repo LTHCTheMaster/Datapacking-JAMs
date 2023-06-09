@@ -1,0 +1,60 @@
+{
+	"type": "minecraft:overworld",
+	"generator": {
+		"type": "minecraft:noise",
+		"settings": "lthc.overgrown_garden:overgrown_garden",
+		"biome_source": {
+			"type": "minecraft:multi_noise",
+			"biomes": [
+				{
+					"biome": "lthc.overgrown_garden:old_growth_spruce_taiga",
+					"parameters": {
+						"temperature": 0,
+						"humidity": 0,
+						"continentalness": 0.01,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
+					}
+				},
+				{
+					"biome": "lthc.overgrown_garden:old_growth_pine_taiga",
+					"parameters": {
+						"temperature": 0,
+						"humidity": 0,
+						"continentalness": 0,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
+					}
+				},
+				{
+					"biome": "lthc.overgrown_garden:old_growth_birch_forest",
+					"parameters": {
+						"temperature": 0,
+						"humidity": 0,
+						"continentalness": -0.01,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
+					}
+				},
+				{
+					"biome": "lthc.overgrown_garden:mangrove_swamp",
+					"parameters": {
+						"temperature": 0,
+						"humidity": 0.01,
+						"continentalness": 0,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
+					}
+				}
+			]
+		}
+	}
+}

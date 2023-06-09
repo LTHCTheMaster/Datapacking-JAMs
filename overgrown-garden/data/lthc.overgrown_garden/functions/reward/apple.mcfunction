@@ -1,0 +1,1 @@
+give @s apple{lthc_overgrown_garden: {teleporter: 1b}, display: {Lore: ['{"text":"taste my knowledge, taste my world, taste the garden"}'], Name: '{"text":"Pomum Magni Horti"}'}, Enchantments: [{lvl: 1s, id: "minecraft:respiration"}, {lvl: 1s, id: "minecraft:fortune"}, {lvl: 1s, id: "minecraft:silk_touch"}, {lvl: 1s, id: "minecraft:unbreaking"}]} 5

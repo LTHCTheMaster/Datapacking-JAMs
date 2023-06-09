@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:vine"
+		},
+		"title": "The Overgrown Garden",
+		"description": "old and powerful knowledege hidden behind an apple",
+		"announce_to_chat": false,
+		"frame": "task",
+		"show_toast": false,
+		"background": "minecraft:textures/block/moss_block.png"
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "impossible"
+		}
+	}
+}

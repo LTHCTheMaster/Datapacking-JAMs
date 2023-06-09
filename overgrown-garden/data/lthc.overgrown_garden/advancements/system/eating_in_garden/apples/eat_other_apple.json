@@ -1,0 +1,206 @@
+{
+	"criteria": {
+		"unlock": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"apple"
+					]
+				},
+				"player": [
+					{
+						"condition": "location_check",
+						"predicate": {
+							"dimension": "lthc.overgrown_garden:overgrown_garden"
+						}
+					},
+					{
+						"condition": "alternative",
+						"terms": [
+							{
+								"condition": "inverted",
+								"term": {
+									"condition": "alternative",
+									"terms": [
+										{
+											"condition": "inverted",
+											"term": {
+												"condition": "entity_properties",
+												"entity": "this",
+												"predicate": {
+													"equipment": {
+														"offhand": {
+															"items": [
+																"apple"
+															]
+														}
+													}
+												}
+											}
+										},
+										{
+											"condition": "alternative",
+											"terms": [
+												{
+													"condition": "inverted",
+													"term": {
+														"condition": "entity_properties",
+														"entity": "this",
+														"predicate": {
+															"equipment": {
+																"mainhand": {
+																	"items": [
+																		"apple"
+																	]
+																}
+															}
+														}
+													}
+												},
+												{
+													"condition": "entity_properties",
+													"entity": "this",
+													"predicate": {
+														"equipment": {
+															"mainhand": {
+																"items": [
+																	"apple"
+																],
+																"nbt": "{lthc_overgrown_garden: {teleporter: 1b}}"
+															}
+														}
+													}
+												}
+											]
+										}
+									]
+								}
+							},
+							{
+								"condition": "alternative",
+								"terms": [
+									{
+										"condition": "inverted",
+										"term": {
+											"condition": "alternative",
+											"terms": [
+												{
+													"condition": "entity_properties",
+													"entity": "this",
+													"predicate": {
+														"equipment": {
+															"offhand": {
+																"items": [
+																	"apple"
+																]
+															}
+														}
+													}
+												},
+												{
+													"condition": "alternative",
+													"terms": [
+														{
+															"condition": "inverted",
+															"term": {
+																"condition": "entity_properties",
+																"entity": "this",
+																"predicate": {
+																	"equipment": {
+																		"mainhand": {
+																			"items": [
+																				"apple"
+																			]
+																		}
+																	}
+																}
+															}
+														},
+														{
+															"condition": "entity_properties",
+															"entity": "this",
+															"predicate": {
+																"equipment": {
+																	"mainhand": {
+																		"items": [
+																			"apple"
+																		],
+																		"nbt": "{lthc_overgrown_garden: {teleporter: 1b}}"
+																	}
+																}
+															}
+														}
+													]
+												}
+											]
+										}
+									},
+									{
+										"condition": "inverted",
+										"term": {
+											"condition": "alternative",
+											"terms": [
+												{
+													"condition": "entity_properties",
+													"entity": "this",
+													"predicate": {
+														"equipment": {
+															"mainhand": {
+																"items": [
+																	"apple"
+																]
+															}
+														}
+													}
+												},
+												{
+													"condition": "alternative",
+													"terms": [
+														{
+															"condition": "inverted",
+															"term": {
+																"condition": "entity_properties",
+																"entity": "this",
+																"predicate": {
+																	"equipment": {
+																		"offhand": {
+																			"items": [
+																				"apple"
+																			]
+																		}
+																	}
+																}
+															}
+														},
+														{
+															"condition": "entity_properties",
+															"entity": "this",
+															"predicate": {
+																"equipment": {
+																	"offhand": {
+																		"items": [
+																			"apple"
+																		],
+																		"nbt": "{lthc_overgrown_garden: {teleporter: 1b}}"
+																	}
+																}
+															}
+														}
+													]
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "lthc.overgrown_garden:eating_in_garden/eat_other_apple"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"name": "lthc.overgrown_garden:garden_house_in_overworld",
+	"fallback": "minecraft:empty",
+	"elements": [
+	{
+		"weight": 1,
+		"element": {
+		"element_type": "minecraft:single_pool_element",
+		"projection": "rigid",
+		"location": "lthc.overgrown_garden:garden_house_in_overworld",
+		"processors": "minecraft:empty"
+		}
+	}
+	]
+}

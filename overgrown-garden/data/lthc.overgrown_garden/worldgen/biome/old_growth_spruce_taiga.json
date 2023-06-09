@@ -1,0 +1,64 @@
+{
+	"temperature": 0.25,
+	"downfall": 0.802,
+	"has_precipitation": true,
+	"effects": {
+		"sky_color": 543762,
+		"fog_color": 1608480,
+		"water_color": 18246,
+		"water_fog_color": 11837,
+		"grass_color": 3317810,
+		"foliage_color": 1999390,
+		"mood_sound": {
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"music": {
+			"sound": "minecraft:music.overworld.old_growth_taiga",
+			"min_delay": 12000,
+			"max_delay": 24000,
+			"replace_current_music": false
+		}
+	},
+	"spawners": {
+		"ambient": [],
+		"axolotls": [],
+		"creature": [],
+		"misc": [],
+		"monster": [],
+		"underground_water_creature": [],
+		"water_ambient": [],
+		"water_creature": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"minecraft:cave",
+			"minecraft:cave_extra_underground",
+			"minecraft:canyon"
+		]
+	},
+	"features": [
+		[],
+		[],
+		[
+			"lthc.overgrown_garden:forest_rock"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"lthc.overgrown_garden:spring_water"
+		],
+		[
+			"lthc.overgrown_garden:patch_large_fern",
+			"lthc.overgrown_garden:trees_old_growth_spruce_taiga",
+			"lthc.overgrown_garden:patch_grass_taiga"
+		],
+		[]
+	]
+}

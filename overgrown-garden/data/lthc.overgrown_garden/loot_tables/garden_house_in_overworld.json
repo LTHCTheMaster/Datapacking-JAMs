@@ -1,0 +1,163 @@
+{
+	"type": "chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 8,
+				"max": 13
+			},
+			"entries": [
+				{
+					"type": "group",
+					"children": [
+						{
+							"type": "item",
+							"name": "oak_leaves",
+							"weight": 2
+						},
+						{
+							"type": "item",
+							"name": "dark_oak_leaves",
+							"weight": 1
+						},
+						{
+							"type": "item",
+							"name": "birch_leaves",
+							"weight": 2
+						},
+						{
+							"type": "item",
+							"name": "jungle_leaves",
+							"weight": 3
+						},
+						{
+							"type": "item",
+							"name": "acacia_leaves",
+							"weight": 2
+						},
+						{
+							"type": "item",
+							"name": "spruce_leaves",
+							"weight": 4
+						},
+						{
+							"type": "item",
+							"name": "mangrove_leaves",
+							"weight": 1
+						}
+					],
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"type": "binomial",
+								"n": 8,
+								"p": 0.52
+							}
+						}
+					],
+					"weight": 18
+				},
+				{
+					"type": "group",
+					"children": [
+						{
+							"type": "item",
+							"name": "wheat_seeds",
+							"weight": 4
+						},
+						{
+							"type": "item",
+							"name": "beetroot_seeds",
+							"weight": 2
+						},
+						{
+							"type": "item",
+							"name": "pumpkin_seeds",
+							"weight": 1
+						},
+						{
+							"type": "item",
+							"name": "melon_seeds",
+							"weight": 1
+						}
+					],
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 9
+							}
+						}
+					],
+					"weight": 8
+				},
+				{
+					"type": "group",
+					"children": [
+						{
+							"type": "item",
+							"name": "melon_slice",
+							"weight": 7
+						},
+						{
+							"type": "item",
+							"name": "glistering_melon_slice",
+							"weight": 1
+						}
+					],
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					],
+					"weight": 7
+				},
+				{
+					"type": "item",
+					"name": "apple",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": "Pomum Magni Horti"
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{lthc_overgrown_garden:{teleporter:1b}}"
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "taste my knowledge, taste my world, taste the garden"
+								}
+							]
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"respiration": 1,
+								"fortune": 1,
+								"silk_touch": 1,
+								"unbreaking": 1
+							}
+						},
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 12
+							}
+						}
+					],
+					"weight": 1
+				}
+			]
+		}
+	]
+}

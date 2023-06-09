@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "lthc.overgrown_garden:garden_house_in_overworld",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 140003003,
+		"spacing": 80,
+		"separation": 63
+	}
+}

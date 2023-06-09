@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"unlock": {
+			"trigger": "entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "pillager",
+						"nbt": "{Tags:[\"lthc.overgrown_garden.garden_guardian\"]}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "lthc.overgrown_garden:hitting/garden_guardian_hit_player"
+	}
+}

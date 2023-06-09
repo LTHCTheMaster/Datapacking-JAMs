@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wooden_sword"
+		},
+		"title": "Alea jacta est",
+		"description": "Get killed by Garden Guardian",
+		"hidden": true
+	},
+	"criteria": {
+		"unlock": {
+			"trigger": "entity_killed_player",
+			"conditions": {
+				"entity": {
+					"type": "pillager",
+					"nbt": "{Tags:[\"lthc.overgrown_garden.garden_guardian\"]}"
+				}
+			}
+		}
+	},
+	"parent": "lthc.overgrown_garden:hidden/hidden"
+}

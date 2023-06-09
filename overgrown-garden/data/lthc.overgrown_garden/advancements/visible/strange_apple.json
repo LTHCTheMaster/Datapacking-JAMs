@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:apple",
+			"nbt": "{Enchantments: [{lvl: 1s, id: \"minecraft:unbreaking\"}]}"
+		},
+		"title": "Strange Apple",
+		"description": "discover a really strange apple somewhere",
+		"hidden": true
+	},
+	"criteria": {
+		"unlock": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"apple"
+						],
+						"nbt": "{lthc_overgrown_garden: {teleporter: 1b}}"
+					}
+				]
+			}
+		}
+	},
+	"parent": "lthc.overgrown_garden:visible/garden_house"
+}

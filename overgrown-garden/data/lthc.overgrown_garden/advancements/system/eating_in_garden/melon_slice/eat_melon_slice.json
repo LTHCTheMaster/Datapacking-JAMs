@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"unlock": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"melon_slice"
+					]
+				},
+				"player": {
+					"location": {
+						"dimension": "lthc.overgrown_garden:overgrown_garden"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "lthc.overgrown_garden:eating_in_garden/eat_melon_slice"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:moss_block"
+		},
+		"title": "House ?",
+		"description": "Logs, Leaves, Mushrooms, Moss... and A CHEST ??!?"
+	},
+	"criteria": {
+		"unlock": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "lthc.overgrown_garden:garden_house_in_overworld"
+					}
+				}
+			}
+		}
+	},
+	"parent": "lthc.overgrown_garden:visible/root"
+}

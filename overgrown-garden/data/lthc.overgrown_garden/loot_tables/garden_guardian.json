@@ -1,0 +1,177 @@
+{
+	"type": "entity",
+	"pools": [
+		{
+			"rolls": {
+				"min": 4,
+				"max": 11
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "infested_deepslate",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					],
+					"weight": 4
+				},
+				{
+					"type": "group",
+					"children": [
+						{
+							"type": "item",
+							"name": "painting",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{EntityTag:{variant:\"minecraft:fire\"}}"
+								}
+							]
+						},
+						{
+							"type": "item",
+							"name": "painting",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{EntityTag:{variant:\"minecraft:water\"}}"
+								}
+							]
+						},
+						{
+							"type": "item",
+							"name": "painting",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{EntityTag:{variant:\"minecraft:earth\"}}"
+								}
+							]
+						},
+						{
+							"type": "item",
+							"name": "painting",
+							"functions": [
+								{
+									"function": "set_nbt",
+									"tag": "{EntityTag:{variant:\"minecraft:wind\"}}"
+								}
+							]
+						}
+					],
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "chorus_plant",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 8
+							}
+						}
+					],
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "farmland",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 8
+							}
+						}
+					],
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "dirt_path",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 8
+							}
+						}
+					],
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "hay_block",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					],
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "apple",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": "Pomum Magni Horti"
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{lthc_overgrown_garden:{teleporter:1b}}"
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "taste my knowledge, taste my world, taste the garden"
+								}
+							]
+						},
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"respiration": 1,
+								"fortune": 1,
+								"silk_touch": 1,
+								"unbreaking": 1
+							}
+						},
+						{
+							"function": "set_count",
+							"count": {
+								"min": 3,
+								"max": 12
+							}
+						}
+					],
+					"weight": 1
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"criteria": {
+		"unlock": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"golden_apple"
+					]
+				},
+				"player": [
+					{
+						"condition": "location_check",
+						"predicate": {
+							"dimension": "lthc.overgrown_garden:overgrown_garden"
+						}
+					},
+					{
+						"condition": "location_check",
+						"predicate": {
+							"structure": "lthc.overgrown_garden:garden_temple"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "lthc.overgrown_garden:summon/summon_garden_guardian"
+	}
+}

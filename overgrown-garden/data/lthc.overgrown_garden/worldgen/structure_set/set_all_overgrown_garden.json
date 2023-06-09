@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "lthc.overgrown_garden:garden_temple",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 140002999,
+		"spacing": 79,
+		"separation": 64
+	}
+}

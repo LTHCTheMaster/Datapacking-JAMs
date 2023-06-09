@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stripped_birch_log"
+		},
+		"title": "Oh My Garden !",
+		"description": "enter in the Overgrown Garden, \na really strange garden",
+		"hidden": true
+	},
+	"criteria": {
+		"unlock": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "lthc.overgrown_garden:overgrown_garden"
+					}
+				}
+			}
+		}
+	},
+	"parent": "lthc.overgrown_garden:visible/strange_apple",
+	"rewards": {
+		"function": "lthc.overgrown_garden:reward/apple"
+	}
+}

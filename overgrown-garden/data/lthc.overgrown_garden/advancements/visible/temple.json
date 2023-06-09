@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_apple"
+		},
+		"title": "Temple...",
+		"description": "It's strange, i want to eat a golden apple now",
+		"hidden": true
+	},
+	"criteria": {
+		"unlock": {
+			"trigger": "location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "lthc.overgrown_garden:garden_temple"
+					}
+				}
+			}
+		}
+	},
+	"parent": "lthc.overgrown_garden:hidden/hidden2"
+}

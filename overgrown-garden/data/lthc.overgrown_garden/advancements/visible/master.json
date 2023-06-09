@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_axe"
+		},
+		"title": "It's you ? Master ?",
+		"description": "Trade with Master",
+		"hidden": true
+	},
+	"criteria": {
+		"unlock": {
+			"trigger": "villager_trade",
+			"conditions": {
+				"villager": {
+					"nbt": "{Tags:[\"lthc.overgrown_garden.master\"]}"
+				}
+			}
+		}
+	},
+	"parent": "lthc.overgrown_garden:hidden/hidden2"
+}

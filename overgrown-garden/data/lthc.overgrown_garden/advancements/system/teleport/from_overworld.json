@@ -1,0 +1,23 @@
+{
+	"criteria": {
+		"unlock": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item":{
+					"items": [
+						"apple"
+					],
+					"nbt": "{lthc_overgrown_garden: {teleporter: 1b}}"
+				},
+				"player": {
+					"location": {
+						"dimension": "overworld"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "lthc.overgrown_garden:teleport/from_overworld"
+	}
+}
